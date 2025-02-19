@@ -31,22 +31,22 @@ body {
     background: rgba(0, 0, 0, 0.85);
     padding: 10px, 0;
     z-index: 1000;
-    height: 20%;
+    height: 10%;
 }
 
-nav ul {
+.navbar ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
-nav li {
+.navbar li {
     display: inline;
     margin: 0 15px;
 }
 
-nav a {
+.navbar a {
     text-decoration:none;
     color: rgb(69, 168, 218);
     font-size: 18px;
@@ -54,7 +54,7 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a:hover {
+.navbar a:hover {
     color: rgb(208, 237, 247);
     transform: scale(1.1);
 }
