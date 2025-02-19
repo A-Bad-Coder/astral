@@ -41,7 +41,7 @@ function checkPassword() {
 function openRandomSite() {
             // List of random websites
             const sites = [
-                "https://about-psi.vercel.app",
+                "https://newfest.netlify.app",
                 "https://unblooker-kappa.vercel.app",
                 "https://randomthing-omega.vercel.app",
                 "https://squralcooking.vercel.app/",
