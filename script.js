@@ -69,7 +69,7 @@ function openRandomSiteU() {
                 "https://newsforall.site/",
                 "https://portal.hehege.vpn64.de/",
                 "https://www.apau.shaaaaaaaaaaadow.home64.de/",
-                //"https://charming-capybara-53c2c8.netlify.app/1.8",
+                "https://charming-capybara-53c2c8.netlify.app/1.8",
                 "https://hamburger.netlify.app/",
                 "https://https://soto-inc.global.ssl.fastly.net/",
                 "https://gointospace.app/",
@@ -88,7 +88,7 @@ function openRandomSiteU() {
         }
 
  document.getElementById("cloakButton").addEventListener("click", function () {
-            let win = window.open("about:blank"); // Open a new blank page
+            let win = window.open("about:blank"); 
             if (!win) {
                 alert("Pop-up blocked! Please allow pop-ups for this to work.");
                 return;
@@ -110,7 +110,7 @@ function openRandomSiteU() {
                                 iframe.style.width = '100vw';
                                 iframe.style.height = '100vh';
                                 iframe.style.border = 'none';
-                                iframe.src = '${window.location.href}';
+                                iframe.src = 'https://astral-main.pages.dev';
                                 document.body.appendChild(iframe);
                             };
                         </script>
