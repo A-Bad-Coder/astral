@@ -43,9 +43,9 @@ function openRandomSite() {
             const sites = [
                 "https://newfest.netlify.app",
                 "https://pleasework-app.netlify.app",
-                "https://randomthing-omega.vercel.app",
-                "https://squralcooking.vercel.app/",
-                "https://english-delta-jet.vercel.app"
+                "https://backontrack-app.netlify,app",
+                "pleasework-app.netlify.app",
+                "comingback-app.netlify.app"
             ];
 
             // Select a random site
