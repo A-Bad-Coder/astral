@@ -27,10 +27,11 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 10%;
+    width: 100%;
     background: rgba(0, 0, 0, 0.85);
-    padding: 15px, 0;
+    padding: 10px, 0;
     z-index: 1000;
+    height: 20%;
 }
 
 nav ul {
@@ -46,7 +47,7 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
+    text-decoration:none;
     color: rgb(69, 168, 218);
     font-size: 18px;
     padding: 10px 15px;
