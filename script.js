@@ -43,7 +43,7 @@ function openRandomSite() {
             const sites = [
                 "https://newfest.netlify.app",
                 "https://pleasework-app.netlify.app",
-                "https://backontrack-app.netlify,app",
+                "https://backontrack-app.netlify.app",
                 "https://comingback-app.netlify.app"
             ];
 
