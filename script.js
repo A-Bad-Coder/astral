@@ -42,7 +42,7 @@ function openRandomSite() {
             // List of random websites
             const sites = [
                 "https://newfest.netlify.app",
-                "https://unblooker-kappa.vercel.app",
+                "https://pleasework-app.netlify.app",
                 "https://randomthing-omega.vercel.app",
                 "https://squralcooking.vercel.app/",
                 "https://english-delta-jet.vercel.app"
