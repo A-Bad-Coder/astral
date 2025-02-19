@@ -44,8 +44,8 @@ function openRandomSite() {
                 "https://newfest.netlify.app",
                 "https://pleasework-app.netlify.app",
                 "https://backontrack-app.netlify,app",
-                "pleasework-app.netlify.app",
-                "comingback-app.netlify.app"
+                "https://pleasework-app.netlify.app",
+                "https://comingback-app.netlify.app"
             ];
 
             // Select a random site
