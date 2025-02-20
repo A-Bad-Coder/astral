@@ -53,8 +53,10 @@ body {
     color: rgb(69, 168, 218);
     font-size: 18px;
     transition: color 0.3s ease;
-    padding-top: 40%;
+    padding-top: 2%;
     vertical-align: middle;
+    background-color: #66ccff;
+    border-radius: 40px;
 }
 
 .navbar a:hover {
