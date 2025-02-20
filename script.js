@@ -1,17 +1,3 @@
-// Background Image Randomizer
-document.addEventListener("DOMContentLoaded", function () {
-    const images = [
-        "https://cdn.wccftech.com/wp-content/uploads/2016/09/spacee-scaled.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWGpyTSzKZU9hS-ptH3WJZQ0TMGDqczO0-5A&s"
-    ];
-    
-    const randomImage = images[Math.floor(Math.random() * images.length)];
-    document.body.style.backgroundImage = `url('${randomImage}')`;
-    document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundPosition = "center";
-});
-
-// Copy to clipboard function for Servers page
 function copyToClipboard(text) {
     navigator.clipboard.writeText(text).then(() => {
         alert("Copied: " + text);
@@ -20,7 +6,7 @@ function copyToClipboard(text) {
     });
 }
 
-// Password-protected new update post
+
 function checkPassword() {
     const password = prompt("Enter password:");
     if (password === "thisissigmachat") {
@@ -37,7 +23,7 @@ function checkPassword() {
     }
 }
 
-//Function to load random selenite links
+
 function openRandomSite() {
             // List of random websites
             const sites = [
@@ -47,16 +33,16 @@ function openRandomSite() {
                 "https://comingback-app.netlify.app"
             ];
 
-            // Select a random site
+            
             const randomSite = sites[Math.floor(Math.random() * sites.length)];
 
-            // Open the site in a new tab
+            
             window.open(randomSite, "_blank");
         }
 
-//random button unblocker
+
 function openRandomSiteU() {
-            // List of random websites
+            
             const sites = [
                 "https://asoilkdh.global.ssl.fastly.net/",
                 "https://pizza.frogiee.one/",
@@ -79,10 +65,10 @@ function openRandomSiteU() {
             
             ];
 
-            // Select a random site
+            
             const randomSite = sites[Math.floor(Math.random() * sites.length)];
 
-            // Open the site in a new tab
+            
             window.open(randomSite, "_blank");
         }
 
@@ -120,11 +106,11 @@ function openRandomSiteU() {
             `);
             doc.close();
 
-            // Attempt to close the original page (may be blocked by browser security settings)
+
             setTimeout(() => window.close(), 1000);
         });
 
-// Function to load updates from Firebase
+
 function loadUpdates() {
     const updatesRef = db.ref("updates");
     updatesRef.on("value", (snapshot) => {
