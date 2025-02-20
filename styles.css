@@ -22,8 +22,7 @@ body {
 }
 
 .navbar {
-    background-color: #73b4ffb1;
-    margin-top: 1%;
+    background-color: #73b4ffb1, 0.55;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
@@ -39,7 +38,9 @@ body {
 .navbar a {
     color: #ffffff;
     text-align: center;
-    padding: 8px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
     font-size: 20px;
     text-decoration: none;
     vertical-align: baseline;
@@ -47,7 +48,6 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #389fffb1;
     transform: scale(1.1);
 }
 
